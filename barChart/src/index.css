@@ -1,0 +1,57 @@
+/* src/index.css */
+
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  
+}
+
+/* Set body to fill the viewport */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  padding: 0 20px;
+  margin: 0;
+}
+
+/* Full width container to center the chart */
+.chart-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Styling for the chart */
+.chart-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  height: 80vh; /* Makes the chart height responsive */
+}
+
+/* Style for the chart heading */
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
